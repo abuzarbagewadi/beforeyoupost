@@ -12,8 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+const siteOrigin = process.env.NEXT_PUBLIC_SITE_ORIGIN ?? 'https://beforeyoupost.bagewadiabuzar.chatgpt.site';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://beforeyoupost.bagewadiabuzar.chatgpt.site'),
+  metadataBase: new URL(siteOrigin),
   title: 'Before You Post — Photo privacy check',
   description: 'Check photos for hidden metadata and download a clean copy. Your files never leave your device.',
   openGraph: {

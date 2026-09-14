@@ -23,7 +23,7 @@
 
 * { border-color: var(--border); }
 html { background: var(--background); }
-body { margin: 0; background: radial-gradient(circle at 76% 10%, rgba(250,204,21,.09), transparent 26rem), var(--background); font-family: var(--font-geist-sans), Arial, sans-serif; }
+body { margin: 0; background: radial-gradient(circle at 76% 10%, rgba(250,204,21,.09), transparent 26rem), var(--background); font-family: var(--font-geist-sans, Arial), sans-serif; }
 button { cursor: pointer; }
 .tool-shell { overflow: hidden; border: 1px solid color-mix(in oklab, var(--border), white 20%); border-radius: 1.7rem; background: rgba(255,255,255,.82); box-shadow: 0 30px 80px rgba(16,36,33,.11), 0 2px 8px rgba(16,36,33,.04); backdrop-filter: blur(18px); }
 .drop-zone { margin: 1.25rem; min-height: 430px; width: calc(100% - 2.5rem); display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1.5px dashed oklch(.72 .055 170); border-radius: 1.25rem; background: linear-gradient(rgba(255,255,255,.55),rgba(255,255,255,.55)),repeating-linear-gradient(135deg,transparent 0 12px,rgba(17,94,89,.025) 12px 24px); transition: .2s ease; }
