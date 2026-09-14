@@ -14,5 +14,3 @@ A privacy-first photo metadata checker and cleaner that runs entirely in the bro
 pnpm install
 pnpm dev
 ```
-
-Every push to `main` is built and deployed automatically with GitHub Pages.
